@@ -132,3 +132,42 @@ button:disabled {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+
+/*card.js*/
+
+.card {
+  width: 80px;
+  height: 120px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card.red {
+  color: #e74c3c;
+}
+
+.card.black {
+  color: #2c3e50;
+}
+
+.card-value {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-suit {
+  font-size: 2em;
+  align-self: center;
+}
